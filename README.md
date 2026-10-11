@@ -20,14 +20,16 @@ I'm interested in cloud computing, cyber security and software engineering. I le
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
 ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge&logo=terraform&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 ### 🛠️ What I work with
 
-- ☁️ **Cloud:** AWS (S3, IAM, EC2, VPC, CloudWatch, SNS)
+- ☁️ **Cloud:** AWS (Lambda, API Gateway, ECR, IAM, SSM, CloudWatch, SNS, S3, EC2, VPC), Terraform, Docker, GitHub Actions
 - 🐍 **Languages:** Python, JavaScript, HTML/CSS, SQL
-- ⚛️ **Web:** React, Vite, Node.js, Express
+- ⚛️ **Web:** FastAPI, React, Vite, Node.js, Express
 - 🗄️ **Data:** PostgreSQL, Supabase (row-level security), Prisma
 - 🔐 **Security:** MFA, least privilege, access control, secure onboarding/offboarding
 
@@ -38,6 +40,12 @@ I'm interested in cloud computing, cyber security and software engineering. I le
 A private shared space for families coordinating care: medications, appointments and notes, with invitations and member roles. Each family's data is protected by PostgreSQL row-level security, covered by 24 automated tests that found and fixed a real access gap.
 
 🧰 Built with: React, Vite, Supabase (Postgres, Auth, Edge Functions), PGlite, GitHub Actions, PWA.
+
+**📅 [Uni Deadline Tracker API](https://github.com/macroer16/uni-deadline-tracker-api)**
+
+A REST API for coursework deadlines: Argon2 and JWT login, strict per-user data isolation, urgency labels and a private calendar feed. 44 tests run against SQLite and real PostgreSQL in CI, alongside a Docker smoke test. AWS infrastructure is in Terraform (Lambda, API Gateway, CloudWatch alarms, a budget alert, and GitHub OIDC deploys with no stored keys).
+
+🧰 Built with: Python, FastAPI, SQLAlchemy, PostgreSQL, pytest, Docker, Terraform, AWS, GitHub Actions.
 
 **🛡️ [Cyber Security Readiness Checker](https://github.com/macroer16/cyber-security-readiness-checker)** · [Live demo](https://macroer16.github.io/cyber-security-readiness-checker/)
 
