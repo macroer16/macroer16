@@ -43,11 +43,11 @@ A 10-question self-assessment based on the UK Cyber Essentials controls and the 
 
 🧰 Built with: JavaScript (ES modules), HTML, CSS, Node test runner, GitHub Actions.
 
-**🔐 [Employee Access Checklist](https://github.com/macroer16/employee-access-checklist)** · [Live demo](https://macroer16.github.io/employee-access-checklist/)
+**🔐 [Starters and Leavers Access Tracker](https://github.com/macroer16/employee-access-checklist)** · [Live demo](https://macroer16.github.io/employee-access-checklist/)
 
-A secure onboarding/offboarding checklist for new starters and leavers: Microsoft 365-style accounts, MFA, licences, device security and access removal.
+Tracks Microsoft 365 access for people joining and leaving: tasks with owners and due dates, sign-off with initials, overdue alerts and an audit log exported to CSV. 14 automated tests in GitHub Actions.
 
-🧰 Built with: HTML, CSS, JavaScript.
+🧰 Built with: JavaScript (ES modules), HTML, CSS, Node test runner, GitHub Actions.
 
 <details>
 <summary><b>More projects</b></summary>
