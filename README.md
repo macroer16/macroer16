@@ -18,7 +18,6 @@ I'm interested in cloud computing, cyber security and software engineering. I le
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
 ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
@@ -27,7 +26,7 @@ I'm interested in cloud computing, cyber security and software engineering. I le
 - ☁️ **Cloud:** AWS (S3, IAM, EC2, VPC, CloudWatch, SNS)
 - 🐍 **Languages:** Python, JavaScript, HTML/CSS, SQL
 - ⚛️ **Web:** React, Vite, Node.js, Express
-- 🗄️ **Data:** PostgreSQL, Supabase (row-level security), Prisma, SQLite
+- 🗄️ **Data:** PostgreSQL, Supabase (row-level security), Prisma
 - 🔐 **Security:** MFA, least privilege, access control, secure onboarding/offboarding
 
 ### 📌 Featured projects
@@ -38,15 +37,15 @@ A family care-coordination web app for shared medications, appointments and note
 
 🧰 Built with: React, Vite, Supabase (Postgres + row-level security policies), PWA.
 
-**📈 [Solana Meme Coin Paper-Trading Bot](https://github.com/macroer16/Trading-Coin)**
-
-A fake-money bot that tests whether a trading strategy survives real-world costs. It has strict entry filters, simulated fees and slippage, self-protection rules, and a "death rule" that shuts it down permanently if it loses half its pot. No wallet, no real money.
-
-🧰 Built with: Python, public market-data APIs, SQLite, automated tests.
-
 **🛡️ [Cyber Security Readiness Checker](https://github.com/macroer16/cyber-security-readiness-checker)** · [Live demo](https://macroer16.github.io/cyber-security-readiness-checker/)
 
 Asks small businesses 8 questions about basic security controls (MFA, patching, backups, phishing) and gives a readiness score with improvement actions.
+
+🧰 Built with: HTML, CSS, JavaScript.
+
+**🔐 [Employee Access Checklist](https://github.com/macroer16/employee-access-checklist)** · [Live demo](https://macroer16.github.io/employee-access-checklist/)
+
+A secure onboarding/offboarding checklist for new starters and leavers: Microsoft 365-style accounts, MFA, licences, device security and access removal.
 
 🧰 Built with: HTML, CSS, JavaScript.
 
@@ -55,7 +54,6 @@ Asks small businesses 8 questions about basic security controls (MFA, patching, 
 
 - [CloudVault File Manager](https://github.com/macroer16/cloudvault-file-manager) · [Live demo](https://macroer16.github.io/cloudvault-file-manager/): demo cloud file manager based on S3 and IAM concepts
 - [Backup Monitoring Dashboard](https://github.com/macroer16/backup-monitoring-dashboard) · [Live demo](https://macroer16.github.io/backup-monitoring-dashboard/): demo backup-status dashboard with alerts
-- [Employee Access Checklist](https://github.com/macroer16/employee-access-checklist) · [Live demo](https://macroer16.github.io/employee-access-checklist/): secure onboarding/offboarding checklist
 - [Password Generator](https://github.com/macroer16/password-generator) · [Live demo](https://macroer16.github.io/password-generator/): password generator with a strength rating
 - [Portfolio website](https://github.com/macroer16/victor-cloud-portfolio) · [Live site](https://macroer16.github.io/victor-cloud-portfolio/): my personal portfolio site
 
@@ -74,6 +72,6 @@ Insight programmes, work experience and internships in cloud, cyber security or 
 ### 🔗 Find me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Victor%20Benson-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/victor-benson-b2a07b283/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20site-111111?style=for-the-badge&logo=githubpages&logoColor=white)](https://macroer16.github.io/victor-cloud-portfolio/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20site-111111?style=for-the-badge&logo=github&logoColor=white)](https://macroer16.github.io/victor-cloud-portfolio/)
 
 *Build → Test → Fix → Learn*
