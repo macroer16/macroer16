@@ -39,9 +39,9 @@ A family care-coordination web app for shared medications, appointments and note
 
 **🛡️ [Cyber Security Readiness Checker](https://github.com/macroer16/cyber-security-readiness-checker)** · [Live demo](https://macroer16.github.io/cyber-security-readiness-checker/)
 
-Asks small businesses 8 questions about basic security controls (MFA, patching, backups, phishing) and gives a readiness score with improvement actions.
+A 10-question self-assessment based on the UK Cyber Essentials controls and the NCSC Small Business Guide. Weighted scoring, a ranked action plan, results by area and saved history, with 13 automated tests running in GitHub Actions.
 
-🧰 Built with: HTML, CSS, JavaScript.
+🧰 Built with: JavaScript (ES modules), HTML, CSS, Node test runner, GitHub Actions.
 
 **🔐 [Employee Access Checklist](https://github.com/macroer16/employee-access-checklist)** · [Live demo](https://macroer16.github.io/employee-access-checklist/)
 
