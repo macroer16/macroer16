@@ -1,6 +1,8 @@
 ## Hi, I'm Victor 👋
 
-**First-year BSc Computer Science student at the University of Westminster, London · AWS Certified Cloud Practitioner**
+**First-year BSc Computer Science student at the University of Westminster, London**
+
+☁️ **AWS Certified Solutions Architect – Associate** · **AWS Certified Cloud Practitioner**
 
 I'm interested in cloud computing, cyber security and software engineering. I learn by building projects, then testing them honestly to find out what actually works.
 
@@ -63,9 +65,10 @@ Tracks Microsoft 365 access for people joining and leaving: tasks with owners an
 
 ### 📚 Currently learning
 
-- Working towards **AWS Certified Solutions Architect – Associate**
-- Secure cloud architecture, databases and serverless
-- Python, through my degree
+- Python, properly, through my degree, plus [interview problems](https://github.com/macroer16/dsa-practice) every week
+- Infrastructure as code with Terraform, and Docker
+- Putting my Solutions Architect knowledge into real, deployed projects
+- Microsoft Azure
 
 ### 🎯 What I'm looking for
 
