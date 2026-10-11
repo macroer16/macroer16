@@ -33,9 +33,9 @@ I'm interested in cloud computing, cyber security and software engineering. I le
 
 **👪 [CareCircle](https://github.com/macroer16/carecircle)** · [Live demo](https://carecircle-self.vercel.app) (in progress)
 
-A family care-coordination web app for shared medications, appointments and notes, with invitations and member roles.
+A private shared space for families coordinating care: medications, appointments and notes, with invitations and member roles. Each family's data is protected by PostgreSQL row-level security, covered by 24 automated tests that found and fixed a real access gap.
 
-🧰 Built with: React, Vite, Supabase (Postgres + row-level security policies), PWA.
+🧰 Built with: React, Vite, Supabase (Postgres, Auth, Edge Functions), PGlite, GitHub Actions, PWA.
 
 **🛡️ [Cyber Security Readiness Checker](https://github.com/macroer16/cyber-security-readiness-checker)** · [Live demo](https://macroer16.github.io/cyber-security-readiness-checker/)
 
