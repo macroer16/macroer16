@@ -21,6 +21,11 @@ I'm interested in cloud computing, cyber security and software engineering. I le
 ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
 ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Argo CD](https://img.shields.io/badge/Argo%20CD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white)
+![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge&logo=terraform&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
@@ -28,12 +33,19 @@ I'm interested in cloud computing, cyber security and software engineering. I le
 ### 🛠️ What I work with
 
 - ☁️ **Cloud:** AWS (Lambda, API Gateway, ECR, IAM, SSM, CloudWatch, SNS, S3, EC2, VPC), Terraform, Docker, GitHub Actions
+- ☸️ **Platform:** Kubernetes, ArgoCD (GitOps), Helm, Gateway API (Envoy), cert-manager, Prometheus, Grafana
 - 🐍 **Languages:** Python, JavaScript, HTML/CSS, SQL
 - ⚛️ **Web:** FastAPI, React, Vite, Node.js, Express
 - 🗄️ **Data:** PostgreSQL, Supabase (row-level security), Prisma
-- 🔐 **Security:** MFA, least privilege, access control, secure onboarding/offboarding
+- 🔐 **Security:** supply-chain security (Cosign, SBOMs, Trivy), Kyverno and Pod Security policies, NetworkPolicies, Sealed Secrets, least privilege, MFA
 
 ### 📌 Featured projects
+
+**☸️ [Kubernetes GitOps Platform](https://github.com/macroer16/k8s-gitops-platform)**
+
+A production-style Kubernetes platform run entirely from Git with ArgoCD. It runs my full-stack app with keyless-signed images (Cosign), Kyverno admission policies, Pod Security "restricted", NetworkPolicies, HTTPS through the Gateway API (Envoy Gateway and cert-manager), Sealed Secrets, autoscaling, and Prometheus and Grafana with alerts. Every push builds a fresh 3-node cluster in CI and runs smoke, security-policy and load tests against it.
+
+🧰 Built with: Kubernetes, ArgoCD, Helm, Envoy Gateway, Kyverno, Cosign, Trivy, Prometheus, Grafana, k6, GitHub Actions.
 
 **👪 [CareCircle](https://github.com/macroer16/carecircle)** · [Live demo](https://carecircle-self.vercel.app) (in progress)
 
@@ -41,11 +53,11 @@ A private shared space for families coordinating care: medications, appointments
 
 🧰 Built with: React, Vite, Supabase (Postgres, Auth, Edge Functions), PGlite, GitHub Actions, PWA.
 
-**📅 [Uni Deadline Tracker API](https://github.com/macroer16/uni-deadline-tracker-api)**
+**📅 [Due: deadline tracker](https://github.com/macroer16/uni-deadline-tracker-api)**
 
-A REST API for coursework deadlines: Argon2 and JWT login, strict per-user data isolation, urgency labels and a private calendar feed. 44 tests run against SQLite and real PostgreSQL in CI, alongside a Docker smoke test. AWS infrastructure is in Terraform (Lambda, API Gateway, CloudWatch alarms, a budget alert, and GitHub OIDC deploys with no stored keys).
+A full-stack app (React front end, FastAPI, PostgreSQL) for coursework deadlines: Argon2 and JWT login, strict per-user data isolation, urgency labels and a private calendar feed. 54 tests (API and front end); the API suite runs against SQLite and real PostgreSQL in CI, alongside a Docker smoke test of the whole stack. AWS infrastructure is in Terraform (Lambda, API Gateway, CloudWatch alarms, a budget alert, and GitHub OIDC deploys with no stored keys).
 
-🧰 Built with: Python, FastAPI, SQLAlchemy, PostgreSQL, pytest, Docker, Terraform, AWS, GitHub Actions.
+🧰 Built with: React, TypeScript, Python, FastAPI, SQLAlchemy, PostgreSQL, Prometheus metrics, pytest, Docker, Terraform, GitHub Actions.
 
 **🛡️ [Cyber Security Readiness Checker](https://github.com/macroer16/cyber-security-readiness-checker)** · [Live demo](https://macroer16.github.io/cyber-security-readiness-checker/)
 
@@ -63,7 +75,6 @@ Tracks Microsoft 365 access for people joining and leaving: tasks with owners an
 <summary><b>More projects</b></summary>
 
 - [How Computers Store Numbers](https://github.com/macroer16/number-systems-converter) · [Live demo](https://macroer16.github.io/number-systems-converter/): interactive base converter, two's complement and IEEE 754 explorer where you click bits to flip them (17 tests)
-- [CloudVault File Manager](https://github.com/macroer16/cloudvault-file-manager) · [Live demo](https://macroer16.github.io/cloudvault-file-manager/): demo cloud file manager based on S3 and IAM concepts
 - [Backup Monitor](https://github.com/macroer16/backup-monitoring-dashboard) · [Live dashboard](https://macroer16.github.io/backup-monitoring-dashboard/): nightly GitHub Actions job that backs up all my repos, restore-tests every backup and emails me through a GitHub issue if one fails (23 tests)
 - [Password and Passphrase Generator](https://github.com/macroer16/password-generator) · [Live demo](https://macroer16.github.io/password-generator/): secure generation with the Web Crypto API, entropy in bits, and a private breach check via Have I Been Pwned (18 tests)
 - [Algorithms and data structures practice](https://github.com/macroer16/dsa-practice): my own Python solutions to interview problems, grouped by pattern, with tests and an auto-updating progress table
@@ -74,7 +85,7 @@ Tracks Microsoft 365 access for people joining and leaving: tasks with owners an
 ### 📚 Currently learning
 
 - Python, properly, through my degree, plus [interview problems](https://github.com/macroer16/dsa-practice) every week
-- Infrastructure as code with Terraform, and Docker
+- Kubernetes platform engineering: GitOps, policy as code and observability
 - Putting my Solutions Architect knowledge into real, deployed projects
 - Microsoft Azure
 
