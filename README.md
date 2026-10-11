@@ -32,7 +32,7 @@ I'm interested in cloud computing, cyber security and software engineering. I le
 
 ### 📌 Featured projects
 
-**👪 [CareCircle](https://github.com/macroer16/carecircle)** (in progress)
+**👪 [CareCircle](https://github.com/macroer16/carecircle)** · [Live demo](https://carecircle-self.vercel.app) (in progress)
 
 A family care-coordination web app for shared medications, appointments and notes, with invitations and member roles.
 
