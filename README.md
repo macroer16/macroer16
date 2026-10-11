@@ -54,7 +54,7 @@ Tracks Microsoft 365 access for people joining and leaving: tasks with owners an
 
 - [CloudVault File Manager](https://github.com/macroer16/cloudvault-file-manager) · [Live demo](https://macroer16.github.io/cloudvault-file-manager/): demo cloud file manager based on S3 and IAM concepts
 - [Backup Monitoring Dashboard](https://github.com/macroer16/backup-monitoring-dashboard) · [Live demo](https://macroer16.github.io/backup-monitoring-dashboard/): demo backup-status dashboard with alerts
-- [Password Generator](https://github.com/macroer16/password-generator) · [Live demo](https://macroer16.github.io/password-generator/): password generator with a strength rating
+- [Password and Passphrase Generator](https://github.com/macroer16/password-generator) · [Live demo](https://macroer16.github.io/password-generator/): secure generation with the Web Crypto API, entropy in bits, and a private breach check via Have I Been Pwned (18 tests)
 - [Portfolio website](https://github.com/macroer16/victor-cloud-portfolio) · [Live site](https://macroer16.github.io/victor-cloud-portfolio/): my personal portfolio site
 
 </details>
