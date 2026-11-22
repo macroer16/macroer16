@@ -65,6 +65,12 @@ A synthwave endless runner in the browser built with Three.js and no game engine
 
 🧰 Built with: TypeScript, Three.js, Vite, Web Audio, Vitest, Playwright, GitHub Actions.
 
+**✅ [ApplyTrack](https://github.com/macroer16/applytrack)** — Chrome extension
+
+Tracks spring week and internship applications for UK students: save a role from the current tab, a kanban board and sortable table, notifications 3 days and 1 day before online tests and deadlines, stats, and a HireVue prep checklist per application. Manifest V3; all data stays in `chrome.storage.local`. I use it for my own applications.
+
+🧰 Built with: TypeScript, React, Vite, Tailwind CSS, Chrome Extensions API (MV3), Vitest, GitHub Actions.
+
 **📅 [Due: deadline tracker](https://github.com/macroer16/uni-deadline-tracker-api)**
 
 A full-stack app (React front end, FastAPI, PostgreSQL) for coursework deadlines: Argon2 and JWT login, strict per-user data isolation, urgency labels and a private calendar feed. 54 tests (API and front end); the API suite runs against SQLite and real PostgreSQL in CI, alongside a Docker smoke test of the whole stack. AWS infrastructure is in Terraform (Lambda, API Gateway, CloudWatch alarms, a budget alert, and GitHub OIDC deploys with no stored keys).
