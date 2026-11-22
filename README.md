@@ -41,17 +41,23 @@ I'm interested in cloud computing, cyber security and software engineering. I le
 
 ### 📌 Featured projects
 
+**🛡️ [aws-guard](https://github.com/macroer16/aws-guard)** — AWS security and cost scanner
+
+A read-only command-line tool that finds security risks and wasted money in an AWS account: public S3 buckets, SSH open to the internet, root without MFA, databases without backups, forgotten volumes still billing. 22 checks mapped to AWS Security Hub (FSBP) controls, a terminal table plus an HTML report with a score out of 100, `--fail-on` for CI, an anonymised AI summary, and a `--demo` mode you can run without AWS. 18 tests against a mocked AWS account (moto) in GitHub Actions.
+
+🧰 Built with: Python, boto3, rich, Jinja2, pytest + moto, ruff, GitHub Actions.
+
 **☸️ [Kubernetes GitOps Platform](https://github.com/macroer16/k8s-gitops-platform)**
 
 A production-style Kubernetes platform run entirely from Git with ArgoCD. It runs my full-stack app with keyless-signed images (Cosign), Kyverno admission policies, Pod Security "restricted", NetworkPolicies, HTTPS through the Gateway API (Envoy Gateway and cert-manager), Sealed Secrets, autoscaling, and Prometheus and Grafana with alerts. Every push builds a fresh 3-node cluster in CI and runs smoke, security-policy and load tests against it.
 
 🧰 Built with: Kubernetes, ArgoCD, Helm, Envoy Gateway, Kyverno, Cosign, Trivy, Prometheus, Grafana, k6, GitHub Actions.
 
-**👪 [CareCircle](https://github.com/macroer16/carecircle)** · [Live demo](https://carecircle-self.vercel.app) (in progress)
+**🔌 [CS Visualiser](https://github.com/macroer16/cs-visualiser)** · [Live site](https://cs-visualiser.vercel.app)
 
-A private shared space for families coordinating care: medications, appointments and notes, with invitations and member roles. Each family's data is protected by PostgreSQL row-level security, covered by 24 automated tests that found and fixed a real access gap.
+A six-chapter path from a single switch to a working CPU, for first-year Computer Science. Flip bits, drag and wire logic gates, build truth tables, shade Venn diagrams and step through a tiny CPU register by register. Each chapter ends with a challenge that checks your answer, and progress is saved.
 
-🧰 Built with: React, Vite, Supabase (Postgres, Auth, Edge Functions), PGlite, GitHub Actions, PWA.
+🧰 Built with: React, TypeScript, Vite, Tailwind CSS, Vercel.
 
 **📅 [Due: deadline tracker](https://github.com/macroer16/uni-deadline-tracker-api)**
 
@@ -59,26 +65,23 @@ A full-stack app (React front end, FastAPI, PostgreSQL) for coursework deadlines
 
 🧰 Built with: React, TypeScript, Python, FastAPI, SQLAlchemy, PostgreSQL, Prometheus metrics, pytest, Docker, Terraform, GitHub Actions.
 
-**🛡️ [Cyber Security Readiness Checker](https://github.com/macroer16/cyber-security-readiness-checker)** · [Live demo](https://macroer16.github.io/cyber-security-readiness-checker/)
+**🖥️ [VictorOS — my portfolio](https://github.com/macroer16/personal-website)** · [Live site](https://victor-benson.vercel.app)
 
-A 10-question self-assessment based on the UK Cyber Essentials controls and the NCSC Small Business Guide. Weighted scoring, a ranked action plan, results by area and saved history, with 13 automated tests running in GitHub Actions.
+My personal site as a working desktop in the browser: a live London sky, draggable windows, a terminal with real commands, a browser running my projects, live GitHub data and a basketball mini-game. Turns into a phone home screen on mobile.
 
-🧰 Built with: JavaScript (ES modules), HTML, CSS, Node test runner, GitHub Actions.
-
-**🔐 [Starters and Leavers Access Tracker](https://github.com/macroer16/employee-access-checklist)** · [Live demo](https://macroer16.github.io/employee-access-checklist/)
-
-Tracks Microsoft 365 access for people joining and leaving: tasks with owners and due dates, sign-off with initials, overdue alerts and an audit log exported to CSV. 14 automated tests in GitHub Actions.
-
-🧰 Built with: JavaScript (ES modules), HTML, CSS, Node test runner, GitHub Actions.
+🧰 Built with: Next.js, TypeScript, Tailwind CSS, GitHub API, Vercel.
 
 <details>
 <summary><b>More projects</b></summary>
 
+- [Cyber Security Readiness Checker](https://github.com/macroer16/cyber-security-readiness-checker) · [Live demo](https://macroer16.github.io/cyber-security-readiness-checker/): 10-question self-assessment based on UK Cyber Essentials and the NCSC Small Business Guide, with weighted scoring and a ranked action plan (13 tests)
+- [Starters and Leavers Access Tracker](https://github.com/macroer16/employee-access-checklist) · [Live demo](https://macroer16.github.io/employee-access-checklist/): Microsoft 365 joiner/leaver access tasks with owners, sign-off, overdue alerts and a CSV audit log (14 tests)
+- [CareCircle](https://github.com/macroer16/carecircle) · [Live demo](https://carecircle-self.vercel.app) (in progress): shared care space for families, protected by PostgreSQL row-level security (24 tests)
 - [How Computers Store Numbers](https://github.com/macroer16/number-systems-converter) · [Live demo](https://macroer16.github.io/number-systems-converter/): interactive base converter, two's complement and IEEE 754 explorer where you click bits to flip them (17 tests)
 - [Backup Monitor](https://github.com/macroer16/backup-monitoring-dashboard) · [Live dashboard](https://macroer16.github.io/backup-monitoring-dashboard/): nightly GitHub Actions job that backs up all my repos, restore-tests every backup and emails me through a GitHub issue if one fails (23 tests)
 - [Password and Passphrase Generator](https://github.com/macroer16/password-generator) · [Live demo](https://macroer16.github.io/password-generator/): secure generation with the Web Crypto API, entropy in bits, and a private breach check via Have I Been Pwned (18 tests)
 - [Algorithms and data structures practice](https://github.com/macroer16/dsa-practice): my own Python solutions to interview problems, grouped by pattern, with tests and an auto-updating progress table
-- [Portfolio website](https://github.com/macroer16/victor-cloud-portfolio) · [Live site](https://macroer16.github.io/victor-cloud-portfolio/): my personal portfolio site
+- [First portfolio site](https://github.com/macroer16/victor-cloud-portfolio) · [Live site](https://macroer16.github.io/victor-cloud-portfolio/): my earlier portfolio
 
 </details>
 
@@ -96,6 +99,6 @@ Insight programmes, work experience and internships in cloud, cyber security or 
 ### 🔗 Find me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Victor%20Benson-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/victor-benson-b2a07b283/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20site-111111?style=for-the-badge&logo=github&logoColor=white)](https://macroer16.github.io/victor-cloud-portfolio/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-victor--benson.vercel.app-111111?style=for-the-badge&logo=vercel&logoColor=white)](https://victor-benson.vercel.app)
 
 *Build → Test → Fix → Learn*
