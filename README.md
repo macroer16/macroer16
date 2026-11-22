@@ -59,6 +59,12 @@ A six-chapter path from a single switch to a working CPU, for first-year Compute
 
 🧰 Built with: React, TypeScript, Vite, Tailwind CSS, Vercel.
 
+**🎮 [Neon Runner](https://github.com/macroer16/neon-runner)** · [Play it](https://neon-runner-vb.vercel.app)
+
+A synthwave endless runner in the browser built with Three.js and no game engine: a fixed-step game loop, a seeded procedural track (`?seed=`), input buffering and coyote time, bloom, and sound synthesised with Web Audio. Ships with ARCHITECTURE.md, KNOWN_GAPS.md, a `?debug=1` performance overlay, unit tests and a Playwright screenshot harness.
+
+🧰 Built with: TypeScript, Three.js, Vite, Web Audio, Vitest, Playwright, GitHub Actions.
+
 **📅 [Due: deadline tracker](https://github.com/macroer16/uni-deadline-tracker-api)**
 
 A full-stack app (React front end, FastAPI, PostgreSQL) for coursework deadlines: Argon2 and JWT login, strict per-user data isolation, urgency labels and a private calendar feed. 54 tests (API and front end); the API suite runs against SQLite and real PostgreSQL in CI, alongside a Docker smoke test of the whole stack. AWS infrastructure is in Terraform (Lambda, API Gateway, CloudWatch alarms, a budget alert, and GitHub OIDC deploys with no stored keys).
