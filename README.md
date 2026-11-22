@@ -59,6 +59,12 @@ A six-chapter path from a single switch to a working CPU, for first-year Compute
 
 🧰 Built with: React, TypeScript, Vite, Tailwind CSS, Vercel.
 
+**🗂️ [StudyBuddy](https://github.com/macroer16/studybuddy)** · [Try the demo](https://studybuddy-vb.vercel.app)
+
+Turns lecture PDFs into a summary, spaced-repetition flashcards, timed mock exams scored by topic, and a weekly plan that works back from your exam date. It uses Claude when an API key is set and a built-in offline generator when not, so the demo needs no sign-up. Accounts use Supabase with row-level security on every table, rate limiting, and server-side PDF validation.
+
+🧰 Built with: Next.js, TypeScript, Supabase, Claude API, Tailwind CSS, Vitest, GitHub Actions.
+
 **🎮 [Neon Runner](https://github.com/macroer16/neon-runner)** · [Play it](https://neon-runner-vb.vercel.app)
 
 A synthwave endless runner in the browser built with Three.js and no game engine: a fixed-step game loop, a seeded procedural track (`?seed=`), input buffering and coyote time, bloom, and sound synthesised with Web Audio. Ships with ARCHITECTURE.md, KNOWN_GAPS.md, a `?debug=1` performance overlay, unit tests and a Playwright screenshot harness.
