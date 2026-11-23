@@ -71,6 +71,10 @@ A synthwave endless runner in the browser built with Three.js and no game engine
 
 🧰 Built with: TypeScript, Three.js, Vite, Web Audio, Vitest, Playwright, GitHub Actions.
 
+**🕶️ [Secret Masker](https://github.com/macroer16/secret-masker)** · [Download](https://github.com/macroer16/secret-masker/releases/latest) — Chrome extension
+
+Catches API keys, passwords, card numbers and UK NI numbers when you paste into ChatGPT, Claude or Gemini, and swaps them for typed placeholders like `[AWS_ACCESS_KEY_1]` before the site sees them. When you copy the reply, the real values come back. Luhn-checked cards, mod-97 IBANs and HMRC prefix rules keep false alarms rare. It runs entirely on your device. 26 unit tests plus a real-paste Playwright test.
+
 **✅ [ApplyTrack](https://github.com/macroer16/applytrack)** — Chrome extension
 
 Tracks spring week and internship applications for UK students: save a role from the current tab, a kanban board and sortable table, notifications 3 days and 1 day before online tests and deadlines, stats, and a HireVue prep checklist per application. Manifest V3; all data stays in `chrome.storage.local`. I use it for my own applications.
