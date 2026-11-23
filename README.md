@@ -71,6 +71,10 @@ A synthwave endless runner in the browser built with Three.js and no game engine
 
 🧰 Built with: TypeScript, Three.js, Vite, Web Audio, Vitest, Playwright, GitHub Actions.
 
+**🎲 [Dots & Boxes](https://github.com/macroer16/dots-and-boxes)** — minimax AI
+
+The classic game against Easy, Medium and Hard AIs. Hard searches to the end of the game with negamax, alpha-beta pruning and a transposition table in a Web Worker, and finds double-dealing by itself. It beat Medium 20–0 on 3×3 and 11–0 on 4×4. Switching to make/unmake made the search 5× faster.
+
 **🕶️ [Secret Masker](https://github.com/macroer16/secret-masker)** · [Download](https://github.com/macroer16/secret-masker/releases/latest) — Chrome extension
 
 Catches API keys, passwords, card numbers and UK NI numbers when you paste into ChatGPT, Claude or Gemini, and swaps them for typed placeholders like `[AWS_ACCESS_KEY_1]` before the site sees them. When you copy the reply, the real values come back. Luhn-checked cards, mod-97 IBANs and HMRC prefix rules keep false alarms rare. It runs entirely on your device. 26 unit tests plus a real-paste Playwright test.
